@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Safira-March';
+    src: url('fuentes/Safira March.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Josefin-Sans';
+    src: url('fuentes/Josefin_Sans/static/JosefinSans-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body{
+    height: 100vh;
+    background-image: url('fondos/fondo2.jpg');
+    background-size: cover; /* o 'contain' si prefieres */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ .titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  /* Centrado horizontal de los elementos */
+    margin-top: 50px;
+    gap: 15px;
+}
+
+
+.misxvanos{
+    color: rgb(0, 0, 0);
+    font-family: "Josefin-Sans";
+    font-style: normal;
+    font-size: 40px;
+}
+
+.nombredeximena{
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: "Safira-March";
+}
+
+
+
